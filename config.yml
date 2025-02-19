@@ -1,0 +1,18 @@
+server:
+  web_port: 8080
+  secret: "your-secret-key"  # Generate a secure secret key
+
+database:
+  postgres:
+    host: "goqwwxceyjpqdugvxhes.supabase.co"
+    port: 5432
+    user: "postgres"
+    password: "Account102@@@###$$$"
+    dbname: "postgres"
+    ssl_mode: "require"
+
+redis:
+  url: "rediss://taskcafe_pitriciacle:AUJCAAIjcDFlNjkzMzc1N2Y0OTc0ZDNkOTg3M2ViMWI3MWZhZmEwN3AxMA@regular-akita-16962.upstash.io:6379"
+
+auth:
+  jwt_secret: "ULvnrx3laNgotV8SA0fo6ubis7QkF4LRZ9HVZn8orNgqTPb3jYEZ9kZO7hol0Ir5qPtFW2crC5hBqI/G9x275A=="
